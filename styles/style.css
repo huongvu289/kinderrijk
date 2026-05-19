@@ -67,15 +67,24 @@ header {
 }
 
 .logo {
-  font-size: 1.4rem;
-  font-weight: 700;
-  color: var(--primary-dark);
-  white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+
+  line-height: 1.1;
+
+  font-weight: bold;
+
+  max-width: 260px;
+
+  flex-shrink: 0;
 }
 
 .logo span {
-  color: var(--text);
-  font-weight: 600;
+  font-size: 18px;
+
+  font-weight: normal;
+
+  color: var(--muted);
 }
 
 nav ul {
